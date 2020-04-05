@@ -15,8 +15,8 @@ def sort_array_char_count(array)
 end 
 
 
-def swap_elements(array)
-  array.sort.reverse do |one, two|
+def swap_elements(array, 2,1)
+  array.sort do |one, two|
     one <=> two
   end 
 end  
