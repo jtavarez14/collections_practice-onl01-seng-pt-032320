@@ -17,6 +17,6 @@ end
 
 def swap_elements(array)
   array.sort do |one, two|
-    one + 1 <=> two + 2
+    one <=> two
   end 
 end  
