@@ -29,3 +29,4 @@ def kesha_maker(array)
     character[2] = "$"
   end 
 end 
+
