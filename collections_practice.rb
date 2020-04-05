@@ -9,5 +9,5 @@ end
 
 
 def sort_array_char_count(array)
-  array.str.char.
+  array.str.chars.sort.join
 end 
